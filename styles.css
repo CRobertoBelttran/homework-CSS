@@ -1,0 +1,59 @@
+.fondo{
+    background-color: aqua;
+}
+#encabezado{
+   width: 75vw;
+   margin: auto;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#h2{
+    font-size: 2em;
+}
+.cuerpo{
+    background-color: beige;
+}
+.fin{
+    background-color: antiquewhite;
+}
+.titulos{
+    color: blue;
+    font-size: 2em;
+
+}
+#principal{
+    font-size: 4em;
+    color: black;
+}
+.random{
+    width: 200px;
+    height: 200px ;
+}
+.tarjetas{
+    border: 7px solid pink;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 17%;
+    display: flex;
+    flex-direction:column;
+    gap: 1em;
+    align-items:center ;
+}
+.tarjetas:hover{
+    background-color: rgb(255, 255, 0);
+    transition: 2s;
+}
+#contenedorDeTarjetas{
+    background-color: rgb(51, 78, 69);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid pink;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
